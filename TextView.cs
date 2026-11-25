@@ -39,8 +39,7 @@ namespace LAB09
 
         public override string ToString()
         {
-            return base.ToString() +
-                   $", MaxLength: {MaxLength}, Text: {Text}";
+            return base.ToString() + $", MaxLength: {MaxLength}, Text: {Text}";
         }
     }
 }

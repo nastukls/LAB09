@@ -72,9 +72,7 @@ namespace LAB09
                 {
                     if (elements[i, j] != null)
                     {
-                        Console.WriteLine(
-                            $"Position [{i}, {j}]: {elements[i, j]}"
-                        );
+                        Console.WriteLine($"Position [{i}, {j}]: {elements[i, j]}");
                     }
                 }
             }
@@ -90,9 +88,7 @@ namespace LAB09
             Width = newWidth;
             Height = newHeight;
 
-            Console.WriteLine(
-                $"Grid resized: {Width} x {Height}"
-            );
+            Console.WriteLine($"Grid resized: {Width} x {Height}");
         }
     }
 }

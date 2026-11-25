@@ -46,8 +46,7 @@ namespace LAB09
 
         public override string ToString()
         {
-            return base.ToString() +
-                   $", SelectedItem: {SelectedItem}";
+            return base.ToString() + $", SelectedItem: {SelectedItem}";
         }
     }
 }

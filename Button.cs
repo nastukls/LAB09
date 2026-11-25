@@ -39,8 +39,7 @@ namespace LAB09
 
         public override string ToString()
         {
-            return base.ToString() +
-                   $", Text: {Text}, IsEnabled: {IsEnabled}";
+            return base.ToString() + $", Text: {Text}, IsEnabled: {IsEnabled}";
         }
     }
 }

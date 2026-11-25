@@ -27,37 +27,46 @@ grid.AddToGrid(textView, 0, 1);
 grid.AddToGrid(dropDown, 1, 0);
 grid.AddToGrid(button2, 1, 1);
 
-Console.WriteLine("\nAll elements:");
+Console.WriteLine();
+Console.WriteLine("All elements:");
 grid.ShowAllElements();
 
-Console.WriteLine("\nAdding element to occupied position:");
+Console.WriteLine();
+Console.WriteLine("Adding element to occupied position:");
 grid.AddToGrid(button, 0, 0);
 
-Console.WriteLine("\nDeleting element:");
+Console.WriteLine();
+Console.WriteLine("Deleting element:");
 grid.DeleteFromGrid(textView);
 
 grid.ShowAllElements();
 
-Console.WriteLine("\nClicking elements:");
+Console.WriteLine();
+Console.WriteLine("Clicking elements:");
 button.Click();
 dropDown.Click();
 
-Console.WriteLine("\nResizing elements:");
+Console.WriteLine();
+Console.WriteLine("Resizing elements:");
 button.Resize(150, 60);
 textView.Resize(250, 70);
 
-Console.WriteLine("\nChanging text:");
+Console.WriteLine();
+Console.WriteLine("Changing text:");
 textView.SetText("New text");
 
 Console.WriteLine(textView);
 
-Console.WriteLine("\nSelecting an option:");
+Console.WriteLine();
+Console.WriteLine("Selecting an option:");
 dropDown.SelectItem("Option 2");
 
-Console.WriteLine("\nChecking resize:");
+Console.WriteLine();
+Console.WriteLine("Checking resize:");
 Console.WriteLine(grid.NeedResize(3, 3));
 
 grid.Resize(1000, 800);
 
-Console.WriteLine("\nFinal grid:");
+Console.WriteLine();
+Console.WriteLine("Final grid:");
 grid.ShowAllElements();
